@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #00cdac;
+    padding: 16px 80px;
+    color: white;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#landing-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: white;
+    color: black;
+    height: 100vh;
+    padding: 40px;
+}
+
+.landing-page-content p {
+    line-height: 1.5;
+}
+
+.btn {
+    font-weight: bold;
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 15px;
+    background: white;
+    color: #00cdac;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 2px solid #00cdac;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #00cdac;
+    color: white;
+}
+
+#about {
+    padding: 50px 80px;
+    background-color: #00cdac;
+    text-align: center;
+    color: white;
+}
+
+#projects {
+    text-align: center;
+    padding: 50px 80px;
+    background: #f4f4f4;
+}
+
+.project {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    gap: 20px;
+}
+
+.project img {
+    width: 600px;
+    height: 600px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+.project-info {
+    width: 600px;
+    text-align: left;
+}
+
+.project h3 {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+}
+
+.project p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+#contact {
+    background-color: #333;
+    color: white;
+    padding: 50px 80px;
+    text-align: center;
+}
+
+#contact .contact-content h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#contact .contact-content p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #222;
+    color: white;
+}
